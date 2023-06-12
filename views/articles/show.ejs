@@ -1,0 +1,17 @@
+<% layout('layout/boilerplate') -%>
+<div class="row">
+    <div class="col-lg-6">
+        <div class="col-lg-4">
+            <div class="card mx-auto mb-3" style="width: 23rem;">
+                <div class="card-body">
+                  <h5 class="card-title"><%=article.name%> </h5>
+                  <p class="card-text"><%=article.desc%></p>
+                  <a href="/articles/<%=article._id%>/edit" class="btn btn-sm btn-secondary">Edit</a>
+                 <form action="/articles/<%=article._id%>?_method=DELETE" method="post" class="d-inline">
+                    <button class="btn btn-sm btn-danger">Delete</button>
+                 </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
