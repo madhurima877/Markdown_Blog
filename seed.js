@@ -23,7 +23,7 @@ const articles = [
     },
     {
         name: 'thru',
-        desc: "The iPhone is a line of smartphones designed and marketed by Apple Inc."
+        desc: "This scenario has led to a great deal of diplomatic activity, much of it by American officials, and very recently (September, 1994) by the Secretary-General of the United Nations. There have been three strands to to this diplomacy. First, the Kashmiri problem has been addressed directly by several American officials. In a series of speeches and informal addresses, the traditional American position on Kashmir was subtly altered, so that the US now openly declares all of Kashmir to be disputed territory (in the past the US had never publicly challenged the legitimacy of the accession of Kashmir to India, only its wisdom)."
     },
     {
         name: 'fri',
